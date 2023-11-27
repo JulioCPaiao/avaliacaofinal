@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Final Robson</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.gifcen.com/wp-content/uploads/2021/08/jujutsu-kaisen-gif-9.gif');
+            background-size: cover; 
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+        }
+
+        .diveira {
+            background-color:purple;
+            border-radius: 15px;
+            border-color: black;
+            border-style: solid;
+            width: 500px; 
+            padding: 20px; 
+        }
+
+        .titulo {
+            text-align: center; 
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .satoru {
+            display: block;
+            margin: auto; 
+            padding-bottom: 20px; 
+        }
+
+        .sukuna {
+            display: block;
+            margin: auto; 
+            padding-top: 20px; 
+        }
+
+        .ryomen {
+            text-align: center; 
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .botao1, .botao2 {
+            border-width: 2px;
+            border-radius: 8px;
+            width: 100px;
+            height: 35px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+            cursor: pointer;
+            flex: 1; 
+            margin-left: 130px;
+        }
+
+        .botao1 {
+            background-color: aqua;
+            color: white;
+            border-color: white;
+            margin-right: 5px; 
+            border-style: solid;
+        }
+
+        .botao2 {
+            background-color: rgb(238, 47, 47);
+            color: black;
+            border-color: rgb(22, 22, 22);
+            margin-left: 5px; 
+            border-style: solid;
+        }
+
+        .botao1:hover {
+            background-color: white;
+            color: aqua;
+        }
+
+        .botao2:hover {
+            background-color: rgb(22, 22, 22);
+            color: rgb(238, 47, 47);
+        }
+    </style>
+</head>
+<body class="test">
+    <div class="diveira">
+        <p class="titulo"> Gojo Satoru vs Ryomen Sukuna </p>
+        <img class="satoru" src="https://media.tenor.com/d9eRagnYC70AAAAC/gojo-satoru.gif">
+        <img class="sukuna" src="https://i.ibb.co/0Jz1rCR/44972db8f5324d1363bdd65468675d4ba47d5cef.gif">
+        <p class="ryomen"> Quem ganha? </p>
+        <button class="botao1" onclick="alert('O Honrado!')">Gojo</button>
+        <button class="botao2" onclick="alert('O Rei das Maldições!')">Sukuna</button>
+    </div>
+</body>
+</html>
